@@ -1,0 +1,62 @@
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .header { height: auto; padding: 80px 40px; }
+  .title h1 { font-size: 36px; }
+  .title h3 { font-size: 18px; }
+  .header-search { width: 420px; }
+  nav { height: auto; padding: 16px 0; }
+  hero > .container { flex-direction: column; height: auto; padding: 60px 40px; gap: 40px; }
+  .why-left { padding-right: 0; }
+  .why-right { flex-direction: row; }
+  .why-right img { width: 260px; height: 150px; }
+  hero section { height: auto; padding: 40px; }
+  hero section .icon > h3 { font-size: 24px; }
+  .dest-section-left, .dest-section { height: auto; min-height: 500px; }
+  .dest-card { max-width: 320px; margin: 40px; }
+  .footer-text { height: auto; padding: 60px 0; }
+  .footer-body { flex-direction: column; }
+  .footer-body > img { width: 100%; height: 260px; }
+  footer { height: auto; padding: 40px; }
+}
+
+@media screen and (max-width: 767px) {
+  .header { height: auto; padding: 60px 24px; }
+  .title h1 { font-size: 28px; letter-spacing: 2px; }
+  .title h3 { font-size: 14px; letter-spacing: 2px; }
+  .header-search { width: 100%; height: 50px; }
+  .header-search button { width: 120px; font-size: 12px; }
+  nav { height: auto; padding: 16px 0; }
+  nav .container { flex-direction: column; gap: 12px; }
+  .nav-links { gap: 14px; flex-wrap: wrap; justify-content: center; }
+  .nav-links a { font-size: 12px; }
+  hero > .container { flex-direction: column; height: auto; padding: 40px 24px; gap: 32px; }
+  .why-left { padding-right: 0; }
+  .why-left h2 { font-size: 24px; }
+  .why-right { flex-direction: row; flex-wrap: wrap; }
+  .why-right img { width: 100%; height: 160px; }
+  hero section { height: auto; padding: 32px 24px; }
+  hero section .icon > h3 { font-size: 16px; }
+  hero section .icon > .icon img { width: 40px; height: 40px; }
+  .dest-section-left, .dest-section { height: auto; min-height: 460px; }
+  .dest-card { max-width: 100%; margin: 24px; padding: 24px; }
+  .footer-text { height: auto; padding: 60px 0; }
+  .footer-text h2 { font-size: 26px; }
+  .footer-body { flex-direction: column; }
+  .footer-body > img { width: 100%; height: 220px; }
+  .footer-content { padding: 24px; }
+  footer { height: auto; padding: 40px 24px; }
+  .footer-logo h2 { font-size: 20px; }
+}
+
+@media screen and (max-width: 320px) {
+  .container { padding: 0 12px; }
+  .title h1 { font-size: 22px; letter-spacing: 1px; }
+  .title h3 { font-size: 12px; letter-spacing: 1px; }
+  .header-search { height: 46px; }
+  .header-search button { width: 100px; font-size: 11px; }
+  .nav-links a { font-size: 11px; }
+  hero section .icon > h3 { font-size: 13px; }
+  hero section .icon > .icon img { width: 32px; height: 32px; }
+  .dest-card { padding: 16px; margin: 16px 12px; }
+  .footer-logo h2 { font-size: 16px; }
+  .footer-social { gap: 10px; }
+}

@@ -100,7 +100,6 @@ body {
   background: rgb(33.5895953757, 75.0231213873, 252.4104046243);
 }
 .header-search button:focus {
-  outline: 2px solid #FFFFFF;
   outline-offset: 2px;
 }
 
